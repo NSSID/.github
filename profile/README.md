@@ -17,11 +17,7 @@
 
 ------
 
-<p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NeeasTooID&theme=monokai" />
-  
-------
-
 ### Special Thanks to
 
 [![Zevano](https://github.com/zevanoo.png?size=100)](https://github.com/zevanoo)
+[![Zevano](https://github.com/NpnpicyAvailable.png?size=100)](https://github.com/NpnpicyAvailable)
