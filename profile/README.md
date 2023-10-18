@@ -21,3 +21,4 @@
 
 [![Zevano](https://github.com/zevanoo.png?size=100)](https://github.com/zevanoo)
 [![Zevano](https://github.com/NpnpicyAvailable.png?size=100)](https://github.com/NpnpicyAvailable)
+[![Zevano](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
