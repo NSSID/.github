@@ -18,5 +18,5 @@
 ------
 
 <p align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NpnpicyAvailable&theme=monokai" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NeeasTooID&theme=monokai" />
   
