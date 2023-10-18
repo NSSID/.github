@@ -1,7 +1,7 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 # `Account information`
-> I've been banned 6 times in a row, therefore, I'm asking for help, rather I won't be reported, because I haven't done anything criminal on this website, please cooperate with GitHub :) 
+> a small community that was just for fun building a community and ended up continuing. I never thought it would reach this point, thank you to the team who always supports!
 
 ---------
 
@@ -11,15 +11,12 @@
 </p>
 
 ### My About
-- 👤 My name is YusupKakuu
+- 👤 NeastooID
 - 💌 I am 1999 years old 
-- 👨‍💻 I am not a programmer, just copy someone else's code :)
+- 👨‍💻 Not a group of sevuh but people who are copying and pasting 
 
 ------
 
 <p align="center">
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NpnpicyAvailable&theme=monokai" />
   
-------
-
-![Spotify Me](https://spotify-recently-played-readme.vercel.app/api?user=31clwo7edqwwy7heid576bz6xuue)
