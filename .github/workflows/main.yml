@@ -13,16 +13,11 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Set up Go
-      uses: actions/setup-go@v2
-      with:
-        go-version: '1.x' # Ganti dengan versi Go yang sesuai
-
     - name: Install Gotty
-      run: go get github.com/yudai/gotty
+      run: wget https://github.com/yudai/gotty/releases/download/v2.0.0/gotty_linux_amd64.tar.gz -O gotty.tar.gz && tar -xzvf gotty.tar.gz
 
     - name: Start Gotty Server
-      run: gotty bash # Ganti dengan perintah yang sesua
+      run: ./gotty bash # Ganti dengan perintah yang sesuai
 
     - name: Install Ngrok
       run: |
@@ -34,4 +29,3 @@ jobs:
 
     - name: Create Ngrok Tunnel
       run: ./ngrok http 8080 # Ganti dengan port Gotty server Anda
-
