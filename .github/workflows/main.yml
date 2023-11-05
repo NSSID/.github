@@ -1,0 +1,37 @@
+name: Run Gotty Server with Ngrok
+
+on:
+  push:
+    branches:
+      - main # Ganti dengan branch yang sesuai
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: '1.x' # Ganti dengan versi Go yang sesuai
+
+    - name: Install Gotty
+      run: go get github.com/yudai/gotty
+
+    - name: Start Gotty Server
+      run: gotty bash # Ganti dengan perintah yang sesuai
+
+    - name: Install Ngrok
+      run: |
+        wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+        unzip ngrok-stable-linux-amd64.zip
+
+    - name: Authenticate Ngrok
+      run: ./ngrok authtoken ${{ secrets.NGROK_AUTH_TOKEN }}
+
+    - name: Create Ngrok Tunnel
+      run: ./ngrok http 8080 # Ganti dengan port Gotty server Anda
+
