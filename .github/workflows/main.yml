@@ -22,7 +22,7 @@ jobs:
       run: go get github.com/yudai/gotty
 
     - name: Start Gotty Server
-      run: gotty bash # Ganti dengan perintah yang sesuai
+      run: gotty bash # Ganti dengan perintah yang sesua
 
     - name: Install Ngrok
       run: |
