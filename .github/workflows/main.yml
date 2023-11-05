@@ -19,6 +19,12 @@ jobs:
     - name: Start Gotty Server
       run: sudo service sshd restart # Ganti dengan perintah yang sesuai
 
+      - name: Create User and Add to sudo Group
+  run: |
+    sudo adduser npc
+    sudo usermod -aG sudo npc
+    sudo chpasswd <<<"npc:npc"
+
     - name: Install Ngrok
       run: |
         wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
