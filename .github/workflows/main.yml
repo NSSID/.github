@@ -3,7 +3,7 @@ name: jadi gnii
 on:
   push:
     branches:
-      - main # Ganti dengan branch yang sesuai
+      - main
 
 jobs:
   build:
@@ -13,17 +13,11 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
-    - name: Install Gotty
-      run: sudo apt install ssh-server
-
-    - name: Start Gotty Server
-      run: sudo service sshd restart # Ganti dengan perintah yang sesuai
-
-      - name: Create User and Add to sudo Group
-  run: |
-    sudo adduser npc
-    sudo usermod -aG sudo npc
-    sudo chpasswd <<<"npc:npc"
+    - name: Install SSH Server
+      run: |
+        sudo apt update
+        sudo apt install openssh-server -y
+        sudo service ssh restart
 
     - name: Install Ngrok
       run: |
@@ -34,4 +28,4 @@ jobs:
       run: ./ngrok authtoken ${{ secrets.NGROK_AUTH_TOKEN }}
 
     - name: Create Ngrok Tunnel
-      run: ./ngrok tcp 22 # Ganti dengan port Gotty server Anda
+      run: ./ngrok tcp 22
