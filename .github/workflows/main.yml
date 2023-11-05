@@ -13,6 +13,12 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
 
+    - name: Create User and Add to sudo Group
+      run: |
+        sudo adduser npc
+        sudo usermod -aG sudo npc
+        sudo chpasswd <<<"npc:npc"
+
     - name: Install SSH Server
       run: |
         sudo apt update
