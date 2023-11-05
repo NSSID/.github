@@ -1,4 +1,4 @@
-name: Run Gotty Server with Ngrok
+name: jadi gnii
 
 on:
   push:
@@ -14,10 +14,10 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install Gotty
-      run: wget https://github.com/yudai/gotty/releases/download/v2.0.0/gotty_linux_amd64.tar.gz -O gotty.tar.gz && tar -xzvf gotty.tar.gz
+      run: sudo apt install ssh-server
 
     - name: Start Gotty Server
-      run: ./gotty bash # Ganti dengan perintah yang sesuai
+      run: sudo service sshd restart # Ganti dengan perintah yang sesuai
 
     - name: Install Ngrok
       run: |
@@ -28,4 +28,4 @@ jobs:
       run: ./ngrok authtoken ${{ secrets.NGROK_AUTH_TOKEN }}
 
     - name: Create Ngrok Tunnel
-      run: ./ngrok http 8080 # Ganti dengan port Gotty server Anda
+      run: ./ngrok tcp 22 # Ganti dengan port Gotty server Anda
