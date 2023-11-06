@@ -20,5 +20,6 @@
 ### Special Thanks to
 
 [![Zevano](https://github.com/zevanoo.png?size=100)](https://github.com/zevanoo)
-[![Zevano](https://github.com/NpnpicyAvailable.png?size=100)](https://github.com/NpnpicyAvailable)
-[![Zevano](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
+[![Npc](https://github.com/NpnpicyAvailable.png?size=100)](https://github.com/NpnpicyAvailable)
+[![Glospot](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
+[![LinuxxMD](https://github.com/LinuxxMD.png?size=100)](https://github.com/LinuxxMD)
