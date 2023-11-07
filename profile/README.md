@@ -22,5 +22,4 @@
 [![Zevano](https://github.com/zevanoo.png?size=100)](https://github.com/zevanoo)
 [![Npc](https://github.com/NpnpicyAvailable.png?size=100)](https://github.com/NpnpicyAvailable)
 [![Glospot](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
-[![Lutfhii](https://github.com/luthfidesu.png?size=1)](https://github.com/luthfidesu)
 [![LinuxxMD](https://github.com/LinuxxMD.png?size=100)](https://github.com/LinuxxMD)
