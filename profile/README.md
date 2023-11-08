@@ -22,4 +22,5 @@
 [![Zevano](https://github.com/zevanoo.png?size=100)](https://github.com/zevanoo)
 [![Npc](https://github.com/NpnpicyAvailable.png?size=100)](https://github.com/NpnpicyAvailable)
 [![Glospot](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
+[![L](https://github.com/SomeoneNpc.png?size=100)](https://github.com/SomeoneNpc)
 [![LinuxxMD](https://github.com/LinuxxMD.png?size=100)](https://github.com/LinuxxMD)
