@@ -7,7 +7,7 @@
 
 <h1 align="center">Hello Everbody! 🗿👌🏻</h1>
 <p align="center">
-  <img src="https://media.tenor.com/609sc-UxciwAAAAC/dancing-oshi-no-ko.gif" height=400 />
+  <img src="https://media.tenor.com/609sc-UxciwAAAAC/dancing-oshi-no-ko.gif" width=400 />
 </p>
 
 ### My About
