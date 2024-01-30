@@ -24,3 +24,4 @@
 [![Fosil](https://github.com/HindiaFtNpc.png?size=100)](https://github.com/HindiaFtNpc)
 [![US9](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)
 [![Kotorichanbot](https://github.com/Kotorichanbot.png?size=100)](https://github.com/Kotorichanbot)
+[![LinucxMD](https://github.com/LinucxMD.png?size=100)](https://github.com/LinucxMD)
