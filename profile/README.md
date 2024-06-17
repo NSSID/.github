@@ -8,7 +8,6 @@
 [![Zevano](https://github.com/zevanoo.png?size=100)](https://github.com/zevanoo)
 [![Glospot](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
 [![ZtrDiamond](https://github.com/ZTRdiamond.png?size=100)](https://github.com/ZTRdiamond)
-[![Sevuh](https://github.com/NeastooID.png?size=100)](https://github.com/NeastooID)
 [![Fosil](https://github.com/HindiaFtNpc.png?size=100)](https://github.com/HindiaFtNpc)
 [![US9](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)
 [![LinucxMD](https://github.com/LinucxMD.png?size=100)](https://github.com/LinucxMD)
