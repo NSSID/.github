@@ -5,7 +5,6 @@
 
 ------
 
-[![Glospot](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
 [![US9](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)
 [![LinucxMD](https://github.com/NeofetchNpc.png?size=100)](https://github.com/NeofetchNpc)
 [![Kotori](https://github.com/yuuviekone.png?size=100)](https://github.com/yuuviekone)
