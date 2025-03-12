@@ -5,7 +5,7 @@
 
 ------
 
-[![US9](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)
+[![NSSID](https://github.com/NSSID.png?size=100)](https://github.com/NSSID)
 [![LinucxMD](https://github.com/NeofetchNpc.png?size=100)](https://github.com/NeofetchNpc)
 [![senkoXD](https://github.com/senkoXD.png?size=100)](https://github.com/senkoXD)
 [![glospotnew](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
