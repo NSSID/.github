@@ -12,5 +12,6 @@
 [![NESSTID](https://github.com/NESSTID.png?size=100)](https://github.com/NESSTID)
 [![INS](https://github.com/INsITdeveloper.png?size=100)](https://github.com/INsITdeveloper)
 [![NESSTID](https://github.com/nessxyz.png?size=100)](https://github.com/nessxyz)
+[![NESSBZID](https://github.com/nessbzid.png?size=100)](https://github.com/nessbzid)
 
 ------
