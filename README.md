@@ -5,6 +5,6 @@
 
 ------
 
-[LinucxMD](https://github.com/NeofetchNpc)
+[Not Found 404](https://github.com/NeofetchNpc)
 
 ------
