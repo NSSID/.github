@@ -5,10 +5,6 @@
 
 ------
 
-[![US9](https://github.com/NeeasTooID.png?size=100)](https://github.com/NeeasTooID)
-[![LinucxMD](https://github.com/NeofetchNpc.png?size=100)](https://github.com/NeofetchNpc)
-[![Kotori](https://github.com/yuuviekone.png?size=100)](https://github.com/yuuviekone)
-[![TukangM](https://github.com/TukangM.png?size=100)](https://github.com/TukangM)
-[![senkoXD](https://github.com/senkoXD.png?size=100)](https://github.com/senkoXD)
+[LinucxMD](https://github.com/NeofetchNpc)
 
 ------
