@@ -2,8 +2,6 @@
 
 # `Team`
 
-------
-
 [![NSSID](https://github.com/NSSID.png?size=100)](https://github.com/NSSID)
 [![senkoXD](https://github.com/senkoXD.png?size=100)](https://github.com/senkoXD)
 [![glospotnew](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
