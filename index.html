@@ -3,46 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Halaman Sederhana</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 1rem 0;
-    }
-    main {
-      padding: 2rem;
-    }
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 1rem 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+  <title>NSSID</title>
+  <!-- Link ke Tailwind CSS dan DaisyUI -->
+  <script src="https://cdn.tailwindcss.com?plugins=daisyui"></script>
 </head>
-<body>
-  <header>
-    <h1>Selamat Datang di Halaman Sederhana</h1>
-  </header>
+<body class="min-h-screen bg-base-100 text-base-content">
 
-  <main>
-    <p>Ini adalah contoh halaman HTML yang sederhana.</p>
-    <button onclick="alert('Halo!')">Klik Saya</button>
-  </main>
+  <!-- Hero -->
+  <section class="text-center py-12 px-4 max-w-3xl mx-auto">
+    <h1 class="text-5xl font-bold mb-4">NSSID</h1>
+    <p class="text-lg opacity-80">
+      A community of curious minds who explore, learn, and build together — just for fun, but with real impact.
+    </p>
+    <div class="mt-6">
+      <a href="https://github.com/NSSID" class="btn btn-primary">
+        Visit Our GitHub
+      </a>
+    </div>
+  </section>
 
-  <footer>
-    <p>&copy; 2025 Halaman Sederhana</p>
-  </footer>
+  <!-- About -->
+  <section class="max-w-4xl mx-auto py-12 px-4">
+    <h2 class="text-3xl font-semibold mb-4">About NSSID</h2>
+    <p class="text-lg opacity-90">
+      NSSID is a group of curious, chill individuals who love experimenting, tinkering, and sharing knowledge.
+      We focus on open-source collaboration, creative projects, and growing together through tech exploration.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section class="max-w-6xl mx-auto py-12 px-4 text-center">
+    <h2 class="text-3xl font-semibold mb-6">Featured Projects</h2>
+    <p class="mb-4 text-lg opacity-90">
+      Explore our open-source work and collaborations.
+    </p>
+    <div class="flex justify-center">
+      <a href="https://github.com/orgs/NSSID/repositories" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+        View All Repositories
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="text-center py-12 px-4">
+    <h2 class="text-3xl font-semibold mb-4">Contact Us</h2>
+    <p class="mb-4">
+      Interested in joining or collaborating? Reach out to us!
+    </p>
+    <a href="mailto:support@ness.biz.id" class="btn btn-outline btn-primary">
+      Email Us
+    </a>
+  </section>
+
 </body>
 </html>
