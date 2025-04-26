@@ -1,8 +1,8 @@
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #121212; /* Gelap */
+  color: #e0e0e0; /* Teks terang */
   margin: 0;
   padding: 0;
 }
@@ -47,6 +47,8 @@ h1, h2 {
 section {
   padding: 2rem;
   margin-bottom: 2rem;
+  background-color: #1e1e1e; /* sedikit beda dari body untuk pembeda section */
+  border-radius: 0.5rem;
 }
 
 .py-12 {
