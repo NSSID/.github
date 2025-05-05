@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-/* Base styles */
+/* Base Styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #121212;
@@ -13,7 +13,7 @@ body {
   line-height: 1.6;
 }
 
-/* Utility Classes */
+/* Typography Utilities */
 .text-center {
   text-align: center;
 }
@@ -46,6 +46,7 @@ body {
   opacity: 0.9;
 }
 
+/* Spacing Utilities */
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -63,7 +64,7 @@ body {
   margin-right: auto;
 }
 
-/* Section Styling */
+/* Section Component */
 .section {
   padding: 2.5rem 1.5rem;
   margin-bottom: 2rem;
@@ -73,7 +74,7 @@ body {
   max-width: 90%;
 }
 
-/* Button Styling */
+/* Button Base */
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -83,7 +84,7 @@ body {
   text-decoration: none;
   font-size: 1rem;
   transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Primary Button */
@@ -96,7 +97,7 @@ body {
   background-color: #1e40af;
 }
 
-/* Outline Button (tanpa border) */
+/* Outline Button */
 .btn-outline {
   background-color: rgba(37, 99, 235, 0.1);
   color: #2563eb;
@@ -107,15 +108,25 @@ body {
   color: white;
 }
 
-/* Responsive Text */
+/* Responsive Typography */
 @media (max-width: 1024px) {
-  .text-5xl { font-size: 2.5rem; }
-  .text-3xl { font-size: 1.875rem; }
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+
+  .text-3xl {
+    font-size: 1.875rem;
+  }
 }
 
 @media (max-width: 640px) {
-  .text-5xl { font-size: 2rem; }
-  .text-3xl { font-size: 1.5rem; }
+  .text-5xl {
+    font-size: 2rem;
+  }
+
+  .text-3xl {
+    font-size: 1.5rem;
+  }
 
   .btn {
     width: 100%;
