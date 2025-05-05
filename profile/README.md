@@ -7,7 +7,6 @@
 [![Sequiora](https://github.com/Aroiuqes2.png?size=100)](https://github.com/Aroiuqes2)
 [![senkoXD](https://github.com/senkoXD.png?size=100)](https://github.com/senkoXD)
 [![glospotnew](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
-[![INS](https://github.com/INsITdeveloper.png?size=100)](https://github.com/INsITdeveloper)
 [![AYM](https://github.com/windyyid.png?size=100)](https://github.com/windyyid)
 
 ------
