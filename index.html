@@ -1,58 +1,124 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NSSID</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #cccccc;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #2563eb;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #1d4ed8;
+    }
+
+    section {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    section p {
+      color: #cccccc;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 640px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <header>
+      <h1>NSSID</h1>
+      <p>A community of curious minds who explore, learn, and build together — just for fun, but with real impact.</p>
+      <a href="https://github.com/nssid" class="btn">Visit Our GitHub</a>
+    </header>
 
-  <!-- Hero Section -->
-  <section class="section text-center">
-    <h1 class="text-5xl font-bold mb-4">NSSID</h1>
-    <p class="text-lg opacity-80">
-      A community of curious minds who explore, learn, and build together — just for fun, but with real impact.
-    </p>
-    <div class="mt-6">
-      <a href="https://github.com/NSSID" class="btn btn-primary">
-        Visit Our GitHub
-      </a>
-    </div>
-  </section>
+    <section>
+      <h2>About NSSID</h2>
+      <p>
+        NSSID is a group of curious, chill individuals who love experimenting, tinkering, and sharing knowledge.
+        We focus on open-source collaboration, creative projects, and growing together through tech exploration.
+      </p>
+    </section>
 
-  <!-- About Section -->
-  <section class="section max-w-4xl mx-auto">
-    <h2 class="text-3xl font-semibold mb-4">About NSSID</h2>
-    <p class="text-lg opacity-90">
-      NSSID is a group of curious, chill individuals who love experimenting, tinkering, and sharing knowledge.
-      We focus on open-source collaboration, creative projects, and growing together through tech exploration.
-    </p>
-  </section>
+    <section>
+      <h2>Featured Projects</h2>
+      <p>
+        Explore our open-source work and collaborations.
+      </p>
+      <a href="https://github.com/nssid" class="btn">View All Repositories</a>
+    </section>
 
-  <!-- Projects Section -->
-  <section class="section text-center max-w-6xl mx-auto">
-    <h2 class="text-3xl font-semibold mb-6">Featured Projects</h2>
-    <p class="mb-4 text-lg opacity-90">
-      Explore our open-source work and collaborations.
-    </p>
-    <div class="mt-6">
-      <a href="https://github.com/orgs/NSSID/repositories" target="_blank" class="btn btn-primary">
-        View All Repositories
-      </a>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="section text-center">
-    <h2 class="text-3xl font-semibold mb-4">Contact Us</h2>
-    <p class="mb-4">
-      Interested in joining or collaborating? Reach out to us!
-    </p>
-    <a href="mailto:support@ness.biz.id" class="btn btn-outline">
-      Email Us
-    </a>
-  </section>
-
+    <footer>
+      &copy; 2025 NSSID. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
