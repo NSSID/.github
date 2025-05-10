@@ -1,5 +1,8 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
+## `Information`
+> ここでの私たちの NESS プロジェクトは、空き時間を埋めて学習するための一時的なプロジェクト、つまり趣味プロジェクトのみを開発しています。
+
 <details open align="center">
 <summary><b> 📌 Members 📌 </b></summary>
   
