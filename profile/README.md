@@ -14,6 +14,7 @@
 [![senkoXD](https://github.com/senkoXD.png?size=100)](https://github.com/senkoXD)
 [![glospotnew](https://github.com/glospotnew.png?size=100)](https://github.com/glospotnew)
 [![AYM](https://github.com/windyyyid.png?size=100)](https://github.com/windyyid)
+[![Upi](https://github.com/luthfidesu.png?size=100)](https://github.com/luthfidesu)
 
 <br>
 </details>
