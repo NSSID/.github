@@ -77,6 +77,54 @@ section p {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.social-btn i {
+  font-size: 1.2rem;
+}
+
+.social-btn.youtube {
+  background-color: #ff0000;
+}
+
+.social-btn.youtube:hover {
+  background-color: #cc0000;
+}
+
+.social-btn.discord {
+  background-color: #5865f2;
+}
+
+.social-btn.discord:hover {
+  background-color: #4752c4;
+}
+
+.social-btn.instagram {
+  background-color: #e1306c;
+}
+
+.social-btn.instagram:hover {
+  background-color: #c1275d;
+}
+
 footer {
   text-align: center;
   margin-top: 50px;
@@ -92,5 +140,9 @@ footer {
   .btn {
     width: 100%;
     text-align: center;
+  }
+
+  .social-icons {
+    gap: 12px;
   }
 }
