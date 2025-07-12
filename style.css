@@ -24,13 +24,13 @@ header {
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   margin-bottom: 10px;
 }
 
 header p {
-  font-size: 1rem;
-  color: #cccccc;
+  font-size: 1.1rem;
+  color: #bbbbbb;
 }
 
 .btn {
@@ -38,26 +38,27 @@ header p {
   margin-top: 20px;
   background-color: #2563eb;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 24px;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 8px;
+  font-weight: 600;
   transition: background-color 0.2s ease;
 }
 
 .btn:hover {
-  background-color: #1d4ed8;
+  background-color: #1e40af;
 }
 
 section {
   background-color: #1e1e1e;
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 12px;
+  padding: 24px;
   margin-bottom: 30px;
 }
 
 section h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1.6rem;
+  margin-bottom: 12px;
 }
 
 section p {
@@ -73,62 +74,62 @@ section p {
 .osu-card img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-center {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .social-icons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
   margin-top: 20px;
 }
 
-.social-btn {
-  display: inline-flex;
+.social {
+  display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 16px;
-  border-radius: 6px;
-  color: white;
+  background-color: #2a2a2a;
+  color: #fff;
   text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+  filter: invert(100%);
+}
+
+.social span {
   font-weight: 600;
-  transition: 0.3s ease;
+  font-size: 0.95rem;
 }
 
-.social-btn i {
-  font-size: 1.2rem;
-}
-
-.social-btn.youtube {
+.social.youtube:hover {
   background-color: #ff0000;
 }
 
-.social-btn.youtube:hover {
-  background-color: #cc0000;
-}
-
-.social-btn.discord {
+.social.discord:hover {
   background-color: #5865f2;
 }
 
-.social-btn.discord:hover {
-  background-color: #4752c4;
-}
-
-.social-btn.instagram {
+.social.instagram:hover {
   background-color: #e1306c;
-}
-
-.social-btn.instagram:hover {
-  background-color: #c1275d;
 }
 
 footer {
   text-align: center;
   margin-top: 50px;
-  color: #555;
+  color: #777;
   font-size: 0.9rem;
 }
 
@@ -143,6 +144,12 @@ footer {
   }
 
   .social-icons {
-    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social {
+    width: 100%;
+    justify-content: center;
   }
 }
