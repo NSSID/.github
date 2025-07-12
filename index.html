@@ -7,104 +7,7 @@
   <link rel="icon" type="image/png" href="https://cdn.ness.biz.id/src/NESSID.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }
-
-    body {
-      background-color: #121212;
-      color: #ffffff;
-      line-height: 1.6;
-      padding: 20px;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1rem;
-      color: #cccccc;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      background-color: #2563eb;
-      color: white;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 6px;
-      transition: background-color 0.2s ease;
-    }
-
-    .btn:hover {
-      background-color: #1d4ed8;
-    }
-
-    section {
-      background-color: #1e1e1e;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 30px;
-    }
-
-    section h2 {
-      font-size: 1.5rem;
-      margin-bottom: 10px;
-    }
-
-    section p {
-      color: #cccccc;
-    }
-
-    .osu-card {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-    }
-
-    .osu-card img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 50px;
-      color: #555;
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 640px) {
-      header h1 {
-        font-size: 2rem;
-      }
-
-      .btn {
-        width: 100%;
-        text-align: center;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
@@ -120,9 +23,16 @@
         NSSID is a group of curious, chill individuals who love experimenting, tinkering, and sharing knowledge.
         We focus on open-source collaboration, creative projects, and growing together through tech exploration.
       </p>
+    </section>
+
+    <section>
+      <h2>osu! Profile</h2>
       <div class="osu-card">
         <img src="https://osu.ness.biz.id/card?user=yusupkakuu&mode=std&lang=en&animation=true&hue=255&flop=true&skills=true&cycleskillsstats=true&skillfigures=true&skillmemory=true" alt="osu! profile card of yusupkakuu" />
       </div>
+      <p style="text-align: center; margin-top: 10px;">
+        Follow our top player: <a href="https://osu.ppy.sh/users/30037974" target="_blank" style="color:#3b82f6;">YusupKakuu</a>
+      </p>
     </section>
 
     <section>
@@ -131,6 +41,15 @@
         Explore our open-source work and collaborations.
       </p>
       <a href="https://github.com/nssid" class="btn">View All Repositories</a>
+    </section>
+
+    <section>
+      <h2>Follow Us</h2>
+      <ul style="list-style: none; padding: 0; text-align: center;">
+        <li><a href="https://youtube.com/@nssid" target="_blank" style="color:#ef4444;">📺 YouTube</a></li>
+        <li><a href="https://discord.gg/YOUR_DISCORD_INVITE" target="_blank" style="color:#5865f2;">💬 Discord</a></li>
+        <li><a href="https://instagram.com/nssid.official" target="_blank" style="color:#e1306c;">📸 Instagram</a></li>
+      </ul>
     </section>
 
     <footer>
