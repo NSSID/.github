@@ -49,6 +49,11 @@ header p {
   background-color: #1e40af;
 }
 
+.btn-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
 section {
   background-color: #1e1e1e;
   border-radius: 12px;
@@ -78,11 +83,6 @@ section p {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
-.btn-center {
-  text-align: center;
-  margin-top: 20px;
-}
-
 .social-icons {
   display: flex;
   justify-content: center;
@@ -104,8 +104,8 @@ section p {
 }
 
 .social img {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   filter: invert(100%);
 }
 
@@ -151,5 +151,10 @@ footer {
   .social {
     width: 100%;
     justify-content: center;
+  }
+
+  .social img {
+    width: 20px;
+    height: 20px;
   }
 }
