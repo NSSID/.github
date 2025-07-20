@@ -1,23 +1,26 @@
+/* Reset & base font */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   background-color: #121212;
   color: #ffffff;
   line-height: 1.6;
   padding: 20px;
 }
 
+/* Container */
 .container {
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
 }
 
+/* Header */
 header {
   text-align: center;
   margin-bottom: 40px;
@@ -33,6 +36,7 @@ header p {
   color: #bbbbbb;
 }
 
+/* Button */
 .btn {
   display: inline-block;
   margin-top: 20px;
@@ -54,6 +58,7 @@ header p {
   margin-top: 20px;
 }
 
+/* Sections */
 section {
   background-color: #1e1e1e;
   border-radius: 12px;
@@ -70,6 +75,7 @@ section p {
   color: #cccccc;
 }
 
+/* osu! card */
 .osu-card {
   display: flex;
   justify-content: center;
@@ -83,6 +89,7 @@ section p {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Social media */
 .social-icons {
   display: flex;
   justify-content: center;
@@ -126,39 +133,7 @@ section p {
   background-color: #e1306c;
 }
 
-footer {
-  text-align: center;
-  margin-top: 50px;
-  color: #777;
-  font-size: 0.9rem;
-}
-
-@media (max-width: 640px) {
-  header h1 {
-    font-size: 2rem;
-  }
-
-  .btn {
-    width: 100%;
-    text-align: center;
-  }
-
-  .social-icons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .social {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .social img {
-    width: 20px;
-    height: 20px;
-  }
-}
-
+/* Project Card */
 .project-card {
   display: flex;
   flex-direction: column;
@@ -188,4 +163,39 @@ footer {
 .project-info p {
   font-size: 1rem;
   margin: 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .social img {
+    width: 20px;
+    height: 20px;
+  }
 }
