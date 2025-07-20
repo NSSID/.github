@@ -158,3 +158,34 @@ footer {
     height: 20px;
   }
 }
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-top: 1rem;
+}
+
+.project-preview {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-info h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.project-info p {
+  font-size: 1rem;
+  margin: 0;
+}
